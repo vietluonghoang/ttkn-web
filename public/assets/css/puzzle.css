@@ -1,0 +1,12 @@
+.not_allow{
+    cursor: not-allowed;
+}
+.allow{
+    cursor: pointer;
+}
+.text_cell{
+    background-color: #E6E6E6;
+}
+.text_cell:hover{
+    background-color: white;
+}

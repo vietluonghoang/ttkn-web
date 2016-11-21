@@ -1,0 +1,502 @@
+body{
+    background: #4F5155;
+    background: url("../images/black_twill.png");
+    color: white;
+}
+.navbar-brand{padding: 5px;}
+.eye_wrap{
+    width: 40px;
+    float: left;
+}
+.wrap_body{
+    min-height: 700px;
+}
+input{
+    height:30px;
+}
+.site_logo{
+    color: white;
+}
+a{
+    color: white;
+}
+.btn-link{
+    color: white;
+}
+.btn-link:hover{
+    color: white;
+}
+.wrap_card_item{
+    border: solid 1px black;
+    margin: 5px;
+}
+.delete_name_icon{
+    margin-left: 10px;
+}
+.wrap_new_name{
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+}
+.new_name_item{
+    clear: both;
+    margin: 5px;
+}
+.delete_giayto_icon{
+    margin-left: 10px;
+}
+.wrap_new_giayto{
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+}
+.new_giayto_item{
+    clear: both;
+    margin: 5px;
+}
+.new_giayto_value{
+    margin-left: 5px;
+}
+.delete_diachi_icon{
+    margin-left: 10px;
+}
+.wrap_new_diachi{
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+}
+.new_diachi_item{
+    clear: both;
+    margin: 5px;
+}
+.delete_phone_icon{
+    margin-left: 10px;
+}
+.wrap_new_phone{
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+}
+.new_phone_item{
+    clear: both;
+    margin: 5px;
+}
+.delete_note_icon{
+    margin-left: 10px;
+}
+.wrap_new_note{
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+}
+.new_note_item{
+    clear: both;
+    margin: 5px;
+}
+.masthead{
+    padding:5px;
+}
+.info_khach{
+
+}
+.wrap_khach_item{
+    color: black;
+}
+.wrap_khach_item_content{
+}
+.info_khach_image{
+    width: inherit;
+}
+.info_khach_image_wrap_default{
+    background-image: url("../images/default-avatar.jpg");
+    background-size: auto 100%;
+    background-position: 15px 0px;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 180px;
+    overflow: hidden;
+}
+.panel-default{
+    color: black;
+}
+table{
+    color:black;
+}
+table a{
+    color:black;
+}
+.wrap_input_popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.vcenter {
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.fb_login_icon{
+    height: 100%;
+    width: auto;
+    float: left;
+}
+.fb_login_btn{
+    width: 400px;
+    height: 100px;
+    background: #edfeeb;
+    border-radius: 5px;
+    box-shadow: #4F5155 1px 1px 0px 0px;
+    padding:10px 20px;
+    margin: auto;
+    margin-top: 200px;
+}
+.fb_login_text{
+    font-size: 20pt;
+    line-height: 80px;
+    font-weight: bold;
+    color: #f8512f;
+}
+.fb_login_btn:hover{
+    cursor: pointer;
+}
+.btn_green {
+    background: #3f6e3a;
+    color: white;
+}
+.navbar-inverse{
+    margin-top: 20px;
+    background-color: rgba(250,0,0,0.4);
+    border-color: #000;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:#fff;
+}
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #333;
+    border-color: #ddd;
+}
+.panel-default {
+    border: none;
+}
+#khach_moi{
+    padding: 10px;
+    background: rgba(150,150,150,0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #000;
+}
+.giayto_type{
+    width:90%;
+    margin: 10px !important;
+}
+#notif_message{
+    visibility: hidden;
+}
+.call_input_popup_group{
+    background: #3a6e67;
+    color: white;
+    border: none;
+    float: right;
+}
+.call_input_popup_group:hover{
+    background: #c3c3c3;
+    color:black;
+}
+.submit_khach{
+    font-weight: bold;
+}
+.submit_khach:hover, .submit_khach:active, .submit_khach:focus, .submit_khach:active:hover{
+
+}
+.vertical-align{
+    display: flex;
+    align-items: center;
+}
+.info_khach_image_wrap{
+    text-align: center;
+    height: 180px;
+    overflow: hidden;
+}
+.btn_function{
+    margin: 10px auto;
+}
+.table_search td{
+    padding: 5px;
+    margin:5px;
+}
+.start_overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-image: url("../images/overlay.jpg");
+    background-color: black;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 100;
+}
+.text_bar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(250,0,0,0.4);
+}
+.start_content{
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.center_icon{
+    width: 200px;
+    height: 200px;
+    margin: 60px auto;
+    background-image: url("../images/eye-of-horus.png");
+    background-size: 100% 100%;
+}
+.info_area{
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+.start_button{
+    margin: 20px auto;
+}
+.img-item {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 5px;
+    background-color: red;
+}
+
+#itemList {
+    width: auto;
+    height: 150px;
+    position: absolute;
+    margin-left: -160px;
+    display: flex;
+}
+
+.image_wrap{
+    position: relative;
+    background: rgba(150,150,150,0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #000;
+}
+
+#slideWrap {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 640px;
+    height: 180px;
+    position: relative;
+    margin: auto;
+}
+
+#preButton {
+    left: 10%;
+}
+
+#nextButton {
+    right: 10%;
+}
+
+.controlButton{
+    padding:20px 10px;
+    color: white;
+    top: 30%;
+    z-index: 2;
+    position: absolute;
+    font-size: 30px;
+}
+
+#caption
+{
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    line-height: 30px;
+    height:30px;
+    width: 100%;
+    white-space: nowrap;
+    -moz-animation:  caption 50s linear 0s infinite;
+    -webkit-animation:  caption 50s linear 0s infinite;
+}
+@-moz-keyframes caption { 0% { margin-left:120%; } 100% { margin-left:-4200px; }  }
+@-webkit-keyframes caption { 0% { margin-left:120%; } 100% { margin-left:-4200px; }  }
+.card_type_chooser .btn{
+    margin: 5px;
+    float: left;
+}
+.card_type_item{
+    border: 1px solid grey;
+    padding:5px;
+    border-radius: 5px;
+}
+#khach_moi img{
+    margin:5px;
+}
+.wrap_chu_item .panel-heading{
+        background-color: #594d46;
+}
+.wrap_chu_item{
+    padding:10px;
+}
+#khach_detail{
+    clear: both;
+    padding: 10px;
+    background: rgba(150,150,150,0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #000;
+}
+#khach_detail .img_wrap{
+    display: block;
+}
+#khach_detail .khach_info_wrap{
+    display: block;
+    margin-top:10px;
+    margin-bottom: 10px;
+    float: right;
+}
+#khach_detail .khach_info_wrap .info_item{
+    border-radius: 5px;
+    float: left;
+    margin-left: 5px;
+    background-color: #d5c3aa;
+    padding:5px;
+}
+#khach_detail .other_info_wrap{
+    display: flex;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+#khach_detail .other_info_wrap img {
+    margin:5px;
+}
+.white_panel{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px;
+    color: #000;
+}
+.field_title{
+    float: left;
+    padding:5px;
+    font-weight: bold;
+}
+.btn-primary{
+    background-color:#2a3132;
+    border-color: black;
+}
+.btn-primary:hover{
+    background-color: #336287;
+}
+.btn-info{
+    background-color:#07575b;
+    border-color: black;
+}
+.btn-info:hover, .btn-info:active, .btn-info:focus, .btn-info:active:hover{
+    background-color: #003b46;
+    border-color: black;
+}
+.search_section{
+    background-color: rgba(150,150,150,0.5);
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+    margin-left: 10px;
+    display: flex;
+    width: 50%;
+    padding: 10px;
+}
+.search_section .form-inline{
+    width: 100%;
+}
+.search_section .form-inline label{
+    width: 30%;
+}
+.tag_item{
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background-color: #cdcdc0;
+    display: inline-flex;
+    padding: 5px;
+    color: black;
+}
+.tag_item .delete_field_icon{
+    display: block;
+    cursor: pointer;
+    margin: 3px 10px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #265c00;
+    border-color: #265c00;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+    color: #fff;
+    background-color: #265c00;
+    border-color: #265c00;
+}
+.wrap_input_popup .form-inline{
+    display: inline-block;
+    padding: 20px;
+    background: #333;
+    border-radius: 5px;
+}
+.wrap_input_popup .form-inline .btn{
+    float: left;
+    margin:10px;
+}
+.wrap_input_popup .form-inline input{
+    float: left;
+    margin: 10px;
+    height: 34px;
+}
+.wrap_input_popup .form-inline select{
+    float: left;
+    margin: 10px;
+    height: 34px;
+}
+.wrap_new_image .default_ava{
+    height: 320px;
+}
+.wrap_new_image .normal_img{
+    height: 150px;
+}
+
+.wrap_new_image img{
+    margin:10px;
+    vertical-align: bottom;
+    border: 1px solid gray;
+    cursor: default;
+}
+.wrap_new_image .wrap_img_edit{
+    float: left;
+    position: relative;
+}
+.remove_image_button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
